@@ -2,7 +2,7 @@ kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
   name: aac-data
-  namespace: ansible-automation-platform
+  namespace: {{ namespace }}
 spec:
   accessModes:
     - ReadWriteOnce
