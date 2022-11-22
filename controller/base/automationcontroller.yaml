@@ -16,6 +16,7 @@ spec:
   projects_persistence: true
   replicas: 1
   admin_user: admin
+  admin_password_secret: aap-admin-password
   projects_use_existing_claim: _Yes_
   projects_existing_claim: aac-data
   init_container_image: registry.access.redhat.com/ubi8/ubi
